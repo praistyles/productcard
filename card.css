@@ -45,7 +45,7 @@ h1{
 .allcon {
     background-color: whitesmoke;
     width: 350px;
-    height: 100vh;
+    height: auto;
     margin: 1.5rem 1rem;
     border-radius: 10px;
 }
@@ -115,10 +115,21 @@ h1{
         display: flex;
     }
     .allcon {
-        width: 38%;
+        width: 50%;
         height: auto;
         margin-top: 7.5em;
     }
+    .rightcon{
+        margin: 2rem 0;
+    }
+    h1{
+        margin-bottom: 2rem; 
+        font-size: 3.2rem;
+    }
+    .cart{
+        
+        margin-top: 1rem;
+       
+    }
 
-    
 }
