@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.picon {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+
+}
+
+html{
+    background-color: #f2ebe3;
+    font-size: 14px;
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: #6c7289;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    color: #1c232b;
+    margin-bottom: 1rem;
+}
+.allcon {
+    background-color: whitesmoke;
+    width: 350px;
+    height: 100vh;
+    margin: 1.5rem 1rem;
+    border-radius: 10px;
+}
+
+.middlecon{
+    padding: 1rem 2rem;
+}
+
+.btmcon{
+    padding: 1rem 2rem;
+
+}
+
+.perf {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.price{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.one {
+    font-family: "Fraunces", serif;
+    color: #3c8067;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.two {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+   text-decoration: line-through;
+   font-weight: 600;
+}
+
+.cart{
+    display: flex;
+    background-color: #3c8067;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cart :hover {
+    background-color: #003622;
+
+}
+
+.add{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+@media(min-width: 1440px) {
+
+    .allcon{
+        display: flex;
+    }
+    .allcon {
+        width: 38%;
+        height: auto;
+        margin-top: 7.5em;
+    }
+
+    
+}
