@@ -87,7 +87,7 @@ h1{
    font-weight: 600;
 }
 
-.cart{
+/* .cart{
     display: flex;
     background-color: #3c8067;
     color: whitesmoke;
@@ -95,11 +95,31 @@ h1{
     padding: 1rem;
     justify-content: center;
     align-items: center;
+} */
+
+.btn{
+    border: 0;
+    display: flex;
+    background-color: #3c8067;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 90%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    gap: 10px;
 }
+
+
+
 
 
 .cart :hover {
     background-color: #003622;
+    cursor: pointer;
 
 }
 
@@ -140,6 +160,13 @@ h1{
     .price{
         margin-bottom: 2rem;
     }
+    .perf {
+        
+        font-size: 1rem;
+
+    }
+    
+
+
     
 }
-
